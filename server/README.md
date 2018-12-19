@@ -11,3 +11,7 @@
 
 ## Install components
 `npm install --save bootstrap react-bootstrap react-router-dom react-cookie`
+
+## Run app in prod mode
+`./mvnw spring-boot:run -Pprod`
+Access at `http://localhost:8000/`
